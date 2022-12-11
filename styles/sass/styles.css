@@ -278,4 +278,43 @@ a {
   max-width: 1260px;
   width: 80%;
   margin: 0 auto;
+}
+
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-size: 1rem;
+  color: #154f78;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #154f78;
 }/*# sourceMappingURL=styles.css.map */
