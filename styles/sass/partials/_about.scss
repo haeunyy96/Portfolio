@@ -1,0 +1,39 @@
+.about {
+    background-color: $secondary;
+    // padding: 80px 80px;
+
+    h2 {
+        color: $secondary;
+        font-family: $primaryFont;
+        font-size: 2rem;
+    }
+
+
+    p {
+        font-size: 1rem;
+        padding-bottom: 10px;
+
+        a {
+            color: $secondary;
+        }
+    }
+}
+
+.aboutFlex {
+    background-color: $primary;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 20px;
+
+    .aboutText {
+        width: 60%;
+    }
+
+    .aboutImage {
+        width: 30%;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}

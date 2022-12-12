@@ -303,6 +303,15 @@ h1 {
   font-size: 4rem;
 }
 
+h4 {
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   max-width: 1280px;
   width: 90%;
@@ -333,6 +342,9 @@ button {
   margin: 15px 15px 0 0;
   border-radius: 4px 4px;
 }
+button:hover {
+  transition: 0.4s;
+}
 
 .index {
   background-color: #fff5d7;
@@ -353,11 +365,38 @@ button {
 
 .portfolioBtn {
   background-color: #ff5e6c;
-  border: 1px solid #ff5e6c;
+  border: 2px solid #ff5e6c;
+}
+.portfolioBtn:hover {
+  background-color: transparent;
 }
 
 .resumeBtn {
-  border: 1px solid #331529;
+  border: 2px solid #331529;
+}
+.resumeBtn a:hover {
+  color: #fff5d7;
+}
+.resumeBtn:hover {
+  background-color: #331529;
+}
+
+.arrowDiv {
+  text-align: center;
+}
+.arrowDiv img {
+  width: 10%;
+}
+.arrowDiv img:hover {
+  cursor: pointer;
+}
+
+.fold {
+  display: none;
+}
+
+.unfold {
+  display: block;
 }
 
 nav {
@@ -403,6 +442,62 @@ nav {
 }
 .menuIcon:hover {
   color: #ff5e6c;
+}
+
+.about {
+  background-color: #ff5e6c;
+}
+.about h2 {
+  color: #ff5e6c;
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+}
+.about p {
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+.about p a {
+  color: #ff5e6c;
+}
+
+.aboutFlex {
+  background-color: #fff5d7;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 20px;
+}
+.aboutFlex .aboutText {
+  width: 60%;
+}
+.aboutFlex .aboutImage {
+  width: 30%;
+}
+.aboutFlex .aboutImage img {
+  max-width: 100%;
+}
+
+.skills {
+  background-color: #fff5d7;
+  color: #331529;
+  padding: 80px 80px;
+  text-align: center;
+}
+
+.skillsFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.skillsFlex li {
+  width: 20%;
+  padding-bottom: 20px;
+}
+.skillsFlex p {
+  padding-bottom: 5px;
+}
+.skillsFlex i {
+  font-size: 1.5rem;
 }
 
 @media (max-width: 750px) {

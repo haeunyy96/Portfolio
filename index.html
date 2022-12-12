@@ -41,7 +41,7 @@
             </div>
         </div>
     </nav>
-    <main>
+    <header>
         <div class="wrapper">
             <div class="indexHeader">
                 <div class="indexPhoto">
@@ -63,6 +63,145 @@
                 <li><a href=https://www.linkedin.com/in/haeun--song><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
         </div>
+        <div class="arrowDiv">
+            <a href="#about"><img class="downArrow" src="assets/Animated-Down-Arrow.gif" alt=""></a>
+        </div>
+    </header>
+    <main class="folder fold">
+        <section class="about" id="about">
+            <div class="wrapper aboutFlex">
+                <div class="aboutImage">
+                    <img src="./styles/assets/travel.png" alt="">
+                </div>
+                <div class="aboutText">
+                    <h5>HELLO, my name is</h5>
+                    <h2>Haeun Song</h2>
+                    <br>
+                    <p>I am a software developer who creates functional and responsive digital products using HTML5, CSS3,
+                        JavaScript,
+                        React, and API integrations.
+                        I am currently studying at <a href="https://junocollege.com/">Juno College of Technology</a>, in process
+                        of completing the Web Development Bootcamp.</p>
+                    <p>Outside of bootcamp, I am an anatomist at <a
+                            href="https://surgery.utoronto.ca/division-anatomy">University of Toronto</a>, and a pediatric
+                        registered nurse -- providing care,
+                        education and support for students, patients and family.</p>
+                    <p> Although very goal driven, I am a big advocate for work-life balance, and if I'm not working, I am
+                        probably sitting under a palm tree drinking piña colada!🍸</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="wrapper">
+                <h4 class="skillsTitle">Skills</h4>
+                <ul class="skillsFlex">
+                    <li>
+                        <p>HTML5</p>
+                        <i class="fab fa-html5" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <p>CSS3</p>
+                        <i class="fab fa-css3-alt" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <p>SASS</p>
+                        <i class="fab fa-sass" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <p>JavaScript</p>
+                        <i class="fab fa-js" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <p>GitHub</p>
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <p>Responsive Design</p>
+                        <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <p>React</p>
+                        <i class="fab fa-react" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <p>API</p>
+                        <i class="fas fa-cogs" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <p>Firebase</p>
+                        <i class="devicon-firebase-plain"></i>
+                    </li>
+                    <li>
+                        <p>JQuery</p>
+                        <i class="devicon-jquery-plain"></i>
+                    </li>
+                </ul>
+            </div>
+
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="wrapper">
+                <h4 class="projectsTitle">Projects</h4>
+                <ul class="projectsFlex">
+                    <li>
+                        <img src="" alt="">
+                        <h5></h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odit officiis earum sed aliquam magnam
+                            beatae perspiciatis eius error sapiente.</p>
+                        <button>View Live</button>
+                        <button>View Code</button>
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <h5></h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odit officiis earum sed aliquam magnam
+                            beatae perspiciatis eius error sapiente.</p>
+                        <button>View Live</button>
+                        <button>View Code</button>
+
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <h5></h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odit officiis earum sed aliquam magnam
+                            beatae
+                            perspiciatis eius error sapiente.</p>
+                        <button>View Live</button>
+                        <button>View Code</button>
+
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <h5></h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odit officiis earum sed aliquam magnam
+                            beatae
+                            perspiciatis eius error sapiente.</p>
+                        <button>View Live</button>
+                        <button>View Code</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="wrapper">
+                <div class="insertMsg">
+                    <h4>Get in Touch</h4>
+                    <form action="mailto:haeunsong0615@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" id="name" placeholder="Name">
+
+                        <label for="email" class="sr-only">Email address</label>
+                        <input type="email" id="email" placeholder="Email Address">
+
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea type="message" id=message rows="5" cols="30" placeholder="Message"></textarea>
+                        <br>
+                        <button class="contactButton" type="submit" value="Submit">Send</button>
+                    </form>
+                </div> <!-- END .insertMsg -->
+            </div>
+        </section>
     </main>
     <script src="index.js"></script>
 </body>

@@ -1,0 +1,26 @@
+.skills {
+    background-color: $primary;
+    color: $tertiary;
+    padding: 80px 80px;
+    text-align: center;
+}
+
+.skillsFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+
+    li {
+        width: 20%;
+        padding-bottom: 20px;
+    }
+
+    p {
+        padding-bottom: 5px;
+    }
+
+    i {
+        font-size: 1.5rem;
+    }
+}

@@ -10,3 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
         menu.classList.remove('open');
     });
 })
+
+const clickArrow = document.querySelector('.downArrow')
+const unfold = document.querySelector('.folder')
+clickArrow.addEventListener('click',(e)=> {
+    unfold.classList.add('unfold');
+})

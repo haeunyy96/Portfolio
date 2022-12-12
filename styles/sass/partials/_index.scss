@@ -18,9 +18,41 @@
 
 .portfolioBtn {
     background-color: $secondary;
-    border: 1px solid $secondary;
+    border: 2px solid $secondary;
+
+    &:hover {
+        background-color: transparent;
+    }
 }
 
 .resumeBtn {
-    border: 1px solid $tertiary;
+    border: 2px solid $tertiary;
+
+    a {
+        &:hover {
+            color: $primary;
+        }
+    }
+    &:hover {
+            background-color: $tertiary;
+        }
+}
+
+.arrowDiv {
+    text-align: center;
+
+    img {
+        width: 10%;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.fold {
+    display: none;
+}
+.unfold {
+    display: block;
 }
