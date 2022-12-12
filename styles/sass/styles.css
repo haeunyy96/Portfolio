@@ -363,6 +363,12 @@ button:hover {
   padding-right: 30px;
 }
 
+.far:hover,
+.fab:hover {
+  color: #ff5e6c;
+  transition: 0.4s;
+}
+
 .portfolioBtn {
   background-color: #ff5e6c;
   border: 2px solid #ff5e6c;
@@ -442,6 +448,7 @@ nav {
 }
 .menuIcon:hover {
   color: #ff5e6c;
+  cursor: pointer;
 }
 
 .about {
@@ -500,6 +507,28 @@ nav {
   font-size: 1.5rem;
 }
 
+.footer {
+  background-color: #331529;
+  padding: 15px;
+  text-align: center;
+  color: #fff5d7;
+}
+
+@media (max-width: 900px) {
+  .indexHeader {
+    flex-direction: column;
+    text-align: center;
+  }
+  .indexHeader h3 {
+    margin-bottom: 20px;
+  }
+  .indexFooter {
+    justify-content: center;
+  }
+  .resumeIcon {
+    padding-left: 30px;
+  }
+}
 @media (max-width: 750px) {
   .navList {
     display: none;
@@ -535,6 +564,7 @@ nav {
   }
   .slideOutNav button:hover {
     color: #ff5e6c;
+    cursor: pointer;
   }
   .slideOutNav a {
     color: #331529;

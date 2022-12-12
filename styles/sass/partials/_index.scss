@@ -16,6 +16,13 @@
     }
 }
 
+.far,
+.fab {
+    &:hover {
+        color: $secondary;
+        transition: 0.4s;
+    }
+}
 .portfolioBtn {
     background-color: $secondary;
     border: 2px solid $secondary;
