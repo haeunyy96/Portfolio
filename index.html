@@ -13,8 +13,57 @@
     <!-- devicon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
-<body>
-    
+<body class="index">
+    <nav>
+        <div class="wrapper navBar">
+            <h3><a class="logo" href="index.html">hs</a></h3>
+            <ul class="navList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="menuIcon" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="slideOutNav">
+                <button id="menuClose">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+                <nav>
+                    <ul class="mainMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="wrapper">
+            <div class="indexHeader">
+                <div class="indexPhoto">
+                    <img src="assets/Developer.gif" alt="">
+                </div>
+                <div class="indexText">
+                    <h1>Haeun Song</h1>
+                    <h3>Toronto based web developer</h3>
+                    <button class="portfolioBtn"><a href="about.html">Portfolio</a></button>
+                    <button class="resumeBtn"><a href="assets/Haeun_Song_Resume.pdf">↓ Resume</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <ul class="indexFooter">
+                <li><a href="assets/Haeun_Song_Resume.pdf"><i class="far fa-file" aria-hidden="true"></i></a></li>
+                <li><a href="mailto:haeunsong0615@gmail.com"><i class="far fa-envelope-open" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/haeunyy96"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                <li><a href=https://www.linkedin.com/in/haeun--song><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </main>
     <script src="index.js"></script>
 </body>
 </html>

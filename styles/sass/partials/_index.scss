@@ -1,0 +1,26 @@
+.index {
+    background-color: $primary;
+}
+
+.indexHeader {
+    margin: 150px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.indexFooter {
+    display: flex;
+    
+    li {
+        padding-right: 30px;
+    }
+}
+
+.portfolioBtn {
+    background-color: $secondary;
+    border: 1px solid $secondary;
+}
+
+.resumeBtn {
+    border: 1px solid $tertiary;
+}

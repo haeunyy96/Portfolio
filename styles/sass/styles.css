@@ -287,7 +287,7 @@ html {
 body {
   font-family: "Jost", sans-serif;
   font-size: 1rem;
-  color: #154f78;
+  color: #331529;
 }
 
 h1,
@@ -300,6 +300,7 @@ p {
 
 h1 {
   font-family: "DM Serif Display", serif;
+  font-size: 4rem;
 }
 
 .wrapper {
@@ -316,5 +317,141 @@ ul {
 
 a {
   text-decoration: none;
-  color: #154f78;
+  color: #331529;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-family: "Jost", sans-serif;
+  color: #331529;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin: 15px 15px 0 0;
+  border-radius: 4px 4px;
+}
+
+.index {
+  background-color: #fff5d7;
+}
+
+.indexHeader {
+  margin: 150px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.indexFooter {
+  display: flex;
+}
+.indexFooter li {
+  padding-right: 30px;
+}
+
+.portfolioBtn {
+  background-color: #ff5e6c;
+  border: 1px solid #ff5e6c;
+}
+
+.resumeBtn {
+  border: 1px solid #331529;
+}
+
+nav {
+  background-color: #fff5d7;
+  color: #331529;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.navList {
+  display: flex;
+  font-size: 0.8rem;
+  padding-top: 4px;
+}
+.navList li {
+  padding-left: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.navList li a {
+  color: #331529;
+}
+.navList li a:hover {
+  color: #ff5e6c;
+  transition: 0.4s;
+}
+
+.menuIcon,
+.slideOutNav {
+  display: none;
+}
+
+.menuIcon {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  color: #331529;
+  border: none;
+}
+.menuIcon:hover {
+  color: #ff5e6c;
+}
+
+@media (max-width: 750px) {
+  .navList {
+    display: none;
+  }
+  .menuIcon {
+    display: inline-block;
+  }
+  .slideOutNav {
+    background-color: #fff5d7;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    padding: 20px 30px 0 50px;
+    width: 100%;
+    max-width: 500px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+    right: -600px;
+    transition: 0.4s;
+  }
+  .open {
+    right: 0;
+  }
+  .slideOutNav button {
+    align-self: flex-end;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    color: #331529;
+    border: none;
+  }
+  .slideOutNav button:hover {
+    color: #ff5e6c;
+  }
+  .slideOutNav a {
+    color: #331529;
+    line-height: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+  .slideOutNav a:hover {
+    color: #ff5e6c;
+    transition: 0.4s;
+  }
+  .mainMenu {
+    margin-top: 30px;
+  }
 }/*# sourceMappingURL=styles.css.map */

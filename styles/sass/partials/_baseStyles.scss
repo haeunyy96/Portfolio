@@ -14,3 +14,17 @@ a {
     text-decoration: none;
     color: $tertiary;
 }
+
+button {
+    background-color: transparent;
+    border: none;
+    font-family: $secondaryFont;
+    color: $tertiary;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin: 15px 15px 0 0;
+    border-radius: 4px 4px;
+}

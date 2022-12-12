@@ -1,0 +1,58 @@
+@media (max-width:750px) {
+    .navList {
+        display: none;
+    }
+
+    .menuIcon {
+        display: inline-block;
+    }
+
+    .slideOutNav {
+        background-color: $primary;
+        min-height: 100vh;
+        position: fixed;
+        top: 0;
+        padding: 20px 30px 0 50px;
+        width: 100%;
+        max-width: 500px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        z-index: 20;
+        right: -600px;
+        transition: 0.4s;
+    }
+
+    .open {
+        right: 0;
+    }
+
+    .slideOutNav button {
+        align-self: flex-end;
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+        color: $tertiary;
+        border: none;
+
+        &:hover {
+            color: $secondary;
+        }
+    }
+
+    .slideOutNav a {
+        color: $tertiary;
+        line-height: 2.2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+
+        &:hover {
+            color: $secondary;
+            transition: 0.4s;
+        }
+    }
+
+    .mainMenu {
+        margin-top: 30px;
+    }
+}
