@@ -507,6 +507,52 @@ nav {
   font-size: 1.5rem;
 }
 
+.contact {
+  color: #331529;
+  padding: 80px 80px;
+  text-align: center;
+}
+.contact h4 {
+  padding-bottom: 20px;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid #331529;
+  background-color: transparent;
+  color: #331529;
+  padding: 10px;
+  font-family: "Jost", sans-serif;
+}
+
+input {
+  margin-right: 10px;
+  margin-bottom: 15px;
+  width: 41%;
+}
+
+textarea {
+  width: 85%;
+  border: 1px solid #331529;
+}
+
+#email {
+  margin-right: 0;
+}
+
+.contactButton {
+  border: 1px solid #331529;
+  background-color: transparent;
+  color: #331529;
+}
+.contactButton:hover {
+  background-color: #331529;
+  color: #fff5d7;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
 .footer {
   background-color: #331529;
   padding: 15px;
