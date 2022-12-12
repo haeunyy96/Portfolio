@@ -8,6 +8,11 @@
     justify-content: space-evenly;
 }
 
+.indexText {
+    h3 {
+        margin-left: 5px;
+    }
+}
 .indexFooter {
     display: flex;
     
@@ -26,6 +31,7 @@
 .portfolioBtn {
     background-color: $secondary;
     border: 2px solid $secondary;
+    margin-left: 5px;
 
     &:hover {
         background-color: transparent;

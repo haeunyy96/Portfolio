@@ -1,0 +1,29 @@
+.projects {
+    background-color: $tertiary;
+    padding: 80px 80px;
+    text-align: center;
+    color: $primary;
+}
+
+.projectsFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+
+    li {
+        width: 48%;
+
+        button {
+
+            background-color: $primary;
+            border: 1px solid $primary;
+
+            &:hover {
+                color: $tertiary;
+                background-color: $secondary;
+                transition: 0.4s;
+            }
+        }
+    }
+}
