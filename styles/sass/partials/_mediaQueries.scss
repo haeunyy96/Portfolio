@@ -20,6 +20,12 @@
         padding-left: 30px;
     }
 
+    .projectsFlex {
+        flex-direction: column;
+    }
+    .projectsList {
+        width: 100%;
+    }
 
 }
 @media (max-width:750px) {

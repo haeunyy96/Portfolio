@@ -44,3 +44,12 @@ textarea {
         transition: 0.4s;
     }
 }
+
+.upArrowDiv {
+    padding-right: 15px;
+    text-align: right;
+
+    img {
+        transform: rotate(180deg);
+    }
+}

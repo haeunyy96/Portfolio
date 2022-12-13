@@ -308,6 +308,12 @@ h4 {
   font-size: 2rem;
 }
 
+h5 {
+  color: #ff5e6c;
+  font-family: "Capriola", sans-serif;
+  font-size: 1.5rem;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -392,13 +398,16 @@ button:hover {
   background-color: #331529;
 }
 
-.arrowDiv {
+.arrowDiv,
+.upArrowDiv {
   text-align: center;
 }
-.arrowDiv img {
+.arrowDiv img,
+.upArrowDiv img {
   width: 10%;
 }
-.arrowDiv img:hover {
+.arrowDiv img:hover,
+.upArrowDiv img:hover {
   cursor: pointer;
 }
 
@@ -521,9 +530,15 @@ nav {
 
 .projects {
   background-color: #331529;
-  padding: 80px 80px;
+}
+.projects h4 {
   text-align: center;
-  color: #fff5d7;
+}
+
+.projectsDiv {
+  background-color: #fff5d7;
+  color: #331529;
+  padding: 80px 80px;
 }
 
 .projectsFlex {
@@ -532,17 +547,40 @@ nav {
   justify-content: space-between;
   padding-top: 50px;
 }
-.projectsFlex li {
-  width: 48%;
+
+.projectsList {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.projectsFlex li button {
-  background-color: #fff5d7;
-  border: 1px solid #fff5d7;
+
+.projectsImages {
+  width: 60%;
+  border: 2px solid #331529;
+  border-radius: 4px 4px;
 }
-.projectsFlex li button:hover {
+.projectsImages img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.projectsText {
+  width: 30%;
+}
+.projectsText button {
+  border: 2px solid #331529;
+  border-radius: 4px 4px;
+  padding: 8px 20px;
+}
+.projectsText button:hover {
   color: #331529;
   background-color: #ff5e6c;
   transition: 0.4s;
+}
+.projectsText button a {
+  font-size: 0.7rem;
+  letter-spacing: 0.05;
 }
 
 .contact {
@@ -591,6 +629,14 @@ textarea {
   transition: 0.4s;
 }
 
+.upArrowDiv {
+  padding-right: 15px;
+  text-align: right;
+}
+.upArrowDiv img {
+  transform: rotate(180deg);
+}
+
 .footer {
   background-color: #331529;
   padding: 15px;
@@ -616,6 +662,12 @@ textarea {
   }
   .resumeIcon {
     padding-left: 30px;
+  }
+  .projectsFlex {
+    flex-direction: column;
+  }
+  .projectsList {
+    width: 100%;
   }
 }
 @media (max-width: 750px) {

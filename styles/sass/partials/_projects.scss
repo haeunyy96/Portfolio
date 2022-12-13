@@ -1,29 +1,57 @@
 .projects {
     background-color: $tertiary;
-    padding: 80px 80px;
-    text-align: center;
-    color: $primary;
+
+    h4 {
+        text-align: center;
+    }
 }
 
+.projectsDiv {
+    background-color: $primary;
+    color: $tertiary;
+    padding: 80px 80px;
+}
 .projectsFlex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 50px;
+}
 
-    li {
-        width: 48%;
+.projectsList {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        button {
+.projectsImages {
+    width: 60%;
+    border: 2px solid $tertiary ;
+    border-radius: 4px 4px;
 
-            background-color: $primary;
-            border: 1px solid $primary;
-
-            &:hover {
-                color: $tertiary;
-                background-color: $secondary;
-                transition: 0.4s;
-            }
-        }
+    img {
+        width: 100%;
+        overflow: hidden;
     }
+}
+
+.projectsText {
+    width: 30%;
+    button {
+        border: 2px solid $tertiary;
+        border-radius: 4px 4px;
+        padding: 8px 20px;
+
+        &:hover {
+            color: $tertiary;
+            background-color: $secondary;
+            transition: 0.4s;
+        }
+
+        a {
+            font-size: 0.7rem;
+            letter-spacing: 0.05;
+        }
+        }
 }
