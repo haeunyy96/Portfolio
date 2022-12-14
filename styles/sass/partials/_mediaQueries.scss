@@ -90,6 +90,7 @@
     .aboutFlex {
         flex-direction: column;
         align-items: center;
+        padding: 20px 20px !important;
 
         .aboutText{
             width: 100%;
@@ -97,7 +98,17 @@
 
         .aboutImage {
             width: 70%;
-            margin-bottom: 80px;
+            margin: 20px 0 50px 0;
+        }
+    }
+
+    .indexText {
+        h3 {
+            margin-top: 25px;
+        }
+
+        button {
+            margin-top: 0;
         }
     }
 }

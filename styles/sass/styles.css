@@ -387,6 +387,12 @@ button:hover {
 .portfolioBtn:hover {
   background-color: transparent;
 }
+.portfolioBtn a {
+  color: #fff5d7;
+}
+.portfolioBtn a:hover {
+  color: #ff5e6c;
+}
 
 .resumeBtn {
   border: 2px solid #331529;
@@ -556,33 +562,34 @@ nav {
 }
 
 .projectsImages {
-  width: 60%;
+  width: 64%;
   border: 2px solid #331529;
-  border-radius: 4px 4px;
+  border-radius: 6px 6px;
 }
 .projectsImages img {
   width: 100%;
   overflow: hidden;
 }
 
-.projectsText {
+.projectsTexts {
   width: 30%;
+  margin-left: 30px;
 }
-.projectsText button {
-  border: 2px solid #331529;
+.projectsTexts button {
   border-radius: 4px 4px;
   padding: 8px 20px;
-}
-.projectsText button:hover {
-  color: #331529;
+  border: 2px solid #ff5e6c;
   background-color: #ff5e6c;
+}
+.projectsTexts button:hover {
+  transform: scale(110%);
   transition: 0.4s;
 }
-.projectsText button a {
+.projectsTexts button a {
   font-size: 0.7rem;
   letter-spacing: 0.05;
+  color: #fff5d7;
 }
-
 .contact {
   color: #331529;
   padding: 80px 80px;
@@ -619,12 +626,12 @@ textarea {
 
 .contactButton {
   border: 1px solid #331529;
-  background-color: transparent;
-  color: #331529;
-}
-.contactButton:hover {
   background-color: #331529;
   color: #fff5d7;
+}
+.contactButton:hover {
+  background-color: transparent;
+  color: #331529;
   cursor: pointer;
   transition: 0.4s;
 }
@@ -723,12 +730,19 @@ textarea {
   .aboutFlex {
     flex-direction: column;
     align-items: center;
+    padding: 20px 20px !important;
   }
   .aboutFlex .aboutText {
     width: 100%;
   }
   .aboutFlex .aboutImage {
     width: 70%;
-    margin-bottom: 80px;
+    margin: 20px 0 50px 0;
+  }
+  .indexText h3 {
+    margin-top: 25px;
+  }
+  .indexText button {
+    margin-top: 0;
   }
 }/*# sourceMappingURL=styles.css.map */

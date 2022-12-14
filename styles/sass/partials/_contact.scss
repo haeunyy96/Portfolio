@@ -34,12 +34,12 @@ textarea {
 }
 .contactButton {
     border: 1px solid $tertiary;
-    background-color: transparent;
-    color: $tertiary;
+    background-color: $tertiary;
+    color: $primary;
 
     &:hover {
-        background-color: $tertiary;
-        color: $primary;
+        background-color: transparent;
+        color: $tertiary;
         cursor: pointer;
         transition: 0.4s;
     }

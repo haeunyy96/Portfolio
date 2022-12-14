@@ -36,6 +36,14 @@
     &:hover {
         background-color: transparent;
     }
+
+    a {
+        color: $primary;
+
+        &:hover {
+            color: $secondary;
+        }
+    }
 }
 
 .resumeBtn {
