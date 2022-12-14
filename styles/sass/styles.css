@@ -544,7 +544,7 @@ nav {
 .projectsDiv {
   background-color: #fff5d7;
   color: #331529;
-  padding: 80px 80px;
+  padding: 80px 55px;
 }
 
 .projectsFlex {
@@ -727,6 +727,9 @@ textarea {
   .mainMenu {
     margin-top: 30px;
   }
+  .indexHeader {
+    margin-bottom: 50px;
+  }
   .aboutFlex {
     flex-direction: column;
     align-items: center;
@@ -739,10 +742,40 @@ textarea {
     width: 70%;
     margin: 20px 0 50px 0;
   }
+  .projectsList {
+    flex-direction: column;
+  }
+  .projectsImages,
+.projectsTexts {
+    width: 100%;
+  }
+  .projectsTexts {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .skillsFlex li {
+    width: 50%;
+  }
   .indexText h3 {
-    margin-top: 25px;
+    margin-top: 20px;
   }
   .indexText button {
     margin-top: 0;
+  }
+  .contact {
+    padding: 80px 20px;
+  }
+  input,
+textarea {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 400px) {
+  .portfolioBtn {
+    margin-bottom: 10px;
+  }
+  .resumeBtn {
+    margin-left: 3px;
   }
 }/*# sourceMappingURL=styles.css.map */

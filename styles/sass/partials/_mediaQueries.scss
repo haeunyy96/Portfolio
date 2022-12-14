@@ -87,6 +87,10 @@
         margin-top: 30px;
     }
 
+    .indexHeader {
+        margin-bottom: 50px;
+    }
+
     .aboutFlex {
         flex-direction: column;
         align-items: center;
@@ -102,13 +106,51 @@
         }
     }
 
+    .projectsList {
+        flex-direction: column;
+    }
+    .projectsImages,
+    .projectsTexts {
+        width: 100%;
+    }
+
+    .projectsTexts {
+        padding-top: 20px;
+    }
+    
+}
+
+
+@media (max-width:600px) {
+    .skillsFlex {
+        li {
+            width: 50%;
+        }
+    }
     .indexText {
         h3 {
-            margin-top: 25px;
+            margin-top: 20px;
         }
 
         button {
             margin-top: 0;
         }
+    }
+    .contact {
+        padding: 80px 20px;
+    }
+    input,
+    textarea {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (max-width:400px) {
+    .portfolioBtn {
+        margin-bottom: 10px;
+    }
+    .resumeBtn {
+        margin-left: 3px;
     }
 }
