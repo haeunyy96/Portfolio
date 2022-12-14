@@ -300,7 +300,7 @@ p {
 
 h1 {
   font-family: "Capriola", sans-serif;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 h4 {
@@ -348,7 +348,7 @@ button {
   margin: 15px 15px 0 0;
   border-radius: 4px 4px;
 }
-button:hover {
+button:hover, button:focus {
   transition: 0.4s;
 }
 
@@ -373,8 +373,9 @@ button:hover {
   padding-right: 30px;
 }
 
-.far:hover,
-.fab:hover {
+.far:hover, .far:focus,
+.fab:hover,
+.fab:focus {
   color: #ff5e6c;
   transition: 0.4s;
 }
@@ -384,23 +385,23 @@ button:hover {
   border: 2px solid #ff5e6c;
   margin-left: 5px;
 }
-.portfolioBtn:hover {
+.portfolioBtn:hover, .portfolioBtn:focus {
   background-color: transparent;
 }
 .portfolioBtn a {
   color: #fff5d7;
 }
-.portfolioBtn a:hover {
+.portfolioBtn a:hover, .portfolioBtn a:focus {
   color: #ff5e6c;
 }
 
 .resumeBtn {
   border: 2px solid #331529;
 }
-.resumeBtn a:hover {
+.resumeBtn a:hover, .resumeBtn a:focus {
   color: #fff5d7;
 }
-.resumeBtn:hover {
+.resumeBtn:hover, .resumeBtn:focus {
   background-color: #331529;
 }
 
@@ -412,8 +413,9 @@ button:hover {
 .upArrowDiv img {
   width: 10%;
 }
-.arrowDiv img:hover,
-.upArrowDiv img:hover {
+.arrowDiv img:hover, .arrowDiv img:focus,
+.upArrowDiv img:hover,
+.upArrowDiv img:focus {
   cursor: pointer;
 }
 
@@ -449,7 +451,7 @@ nav {
 .navList li a {
   color: #331529;
 }
-.navList li a:hover {
+.navList li a:hover, .navList li a:focus {
   color: #ff5e6c;
   transition: 0.4s;
 }
@@ -466,7 +468,7 @@ nav {
   color: #331529;
   border: none;
 }
-.menuIcon:hover {
+.menuIcon:hover, .menuIcon:focus {
   color: #ff5e6c;
   cursor: pointer;
 }
@@ -563,12 +565,21 @@ nav {
 
 .projectsImages {
   width: 64%;
-  border: 2px solid #331529;
-  border-radius: 6px 6px;
+  height: 250px;
+  background-color: #331529;
+  border-radius: 8px 8px;
+  padding: 30px 0 0 30px;
+  overflow: hidden;
 }
 .projectsImages img {
   width: 100%;
-  overflow: hidden;
+  border-radius: 15px 0 0 0;
+}
+.projectsImages:hover, .projectsImages:focus {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(105%);
+  cursor: pointer;
+  transition: 0.4s;
 }
 
 .projectsTexts {
@@ -581,7 +592,7 @@ nav {
   border: 2px solid #ff5e6c;
   background-color: #ff5e6c;
 }
-.projectsTexts button:hover {
+.projectsTexts button:hover, .projectsTexts button:focus {
   transform: scale(110%);
   transition: 0.4s;
 }
@@ -590,6 +601,7 @@ nav {
   letter-spacing: 0.05;
   color: #fff5d7;
 }
+
 .contact {
   color: #331529;
   padding: 80px 80px;
@@ -629,7 +641,7 @@ textarea {
   background-color: #331529;
   color: #fff5d7;
 }
-.contactButton:hover {
+.contactButton:hover, .contactButton:focus {
   background-color: transparent;
   color: #331529;
   cursor: pointer;
@@ -710,7 +722,7 @@ textarea {
     color: #331529;
     border: none;
   }
-  .slideOutNav button:hover {
+  .slideOutNav button:hover, .slideOutNav button:focus {
     color: #ff5e6c;
     cursor: pointer;
   }
@@ -720,7 +732,7 @@ textarea {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
   }
-  .slideOutNav a:hover {
+  .slideOutNav a:hover, .slideOutNav a:focus {
     color: #ff5e6c;
     transition: 0.4s;
   }

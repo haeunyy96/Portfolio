@@ -37,7 +37,8 @@ textarea {
     background-color: $tertiary;
     color: $primary;
 
-    &:hover {
+    &:hover,
+    &:focus {
         background-color: transparent;
         color: $tertiary;
         cursor: pointer;

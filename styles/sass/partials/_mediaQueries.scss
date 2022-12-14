@@ -65,7 +65,8 @@
         color: $tertiary;
         border: none;
 
-        &:hover {
+        &:hover,
+        &:focus {
             color: $secondary;
             cursor: pointer;
         }
@@ -77,7 +78,8 @@
         text-transform: uppercase;
         letter-spacing: 0.1rem;
 
-        &:hover {
+        &:hover,
+        &:focus {
             color: $secondary;
             transition: 0.4s;
         }

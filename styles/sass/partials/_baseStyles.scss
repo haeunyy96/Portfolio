@@ -31,7 +31,8 @@ button {
     margin: 15px 15px 0 0;
     border-radius: 4px 4px;
 
-    &:hover {
+    &:hover,
+    &:focus {
         transition: 0.4s;
     }
 }

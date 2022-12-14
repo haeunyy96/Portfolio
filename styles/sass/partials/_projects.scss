@@ -27,12 +27,24 @@
 
 .projectsImages {
     width: 64%;
-    border: 2px solid $tertiary ;
-    border-radius: 6px 6px;
+    height: 250px;
+    background-color: $tertiary ;
+    border-radius: 8px 8px;
+    padding: 30px 0 0 30px;
+        overflow: hidden;
 
     img {
         width: 100%;
-        overflow: hidden;
+        border-radius: 15px 0 0 0;
+
+    }
+
+    &:hover,
+    &:focus {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transform: scale(105%);
+        cursor: pointer;
+        transition: 0.4s;
     }
 }
 
@@ -46,8 +58,8 @@
         border: 2px solid $secondary;
         background-color: $secondary;
 
-        &:hover {
-            // background-color: $primary;
+        &:hover,
+        &:focus {
             transform: scale(110%);
             transition: 0.4s;
         }
@@ -56,10 +68,6 @@
             font-size: 0.7rem;
             letter-spacing: 0.05;
             color: $primary;
-
-            &:hover {
-                // color: $secondary;
-            }
         }
         }
 }

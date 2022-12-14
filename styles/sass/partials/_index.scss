@@ -23,7 +23,8 @@
 
 .far,
 .fab {
-    &:hover {
+    &:hover,
+    &:focus {
         color: $secondary;
         transition: 0.4s;
     }
@@ -33,14 +34,16 @@
     border: 2px solid $secondary;
     margin-left: 5px;
 
-    &:hover {
+    &:hover,
+    &:focus {
         background-color: transparent;
     }
 
     a {
         color: $primary;
 
-        &:hover {
+        &:hover,
+        &:focus {
             color: $secondary;
         }
     }
@@ -50,11 +53,13 @@
     border: 2px solid $tertiary;
 
     a {
-        &:hover {
+        &:hover,
+        &:focus {
             color: $primary;
         }
     }
-    &:hover {
+    &:hover,
+    &:focus {
             background-color: $tertiary;
         }
 }
@@ -66,7 +71,8 @@
     img {
         width: 10%;
 
-        &:hover {
+        &:hover,
+        &:focus {
             cursor: pointer;
         }
     }

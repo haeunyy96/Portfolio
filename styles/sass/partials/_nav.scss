@@ -23,7 +23,8 @@ nav {
         a {
             color: $tertiary;
 
-            &:hover {
+            &:hover,
+            &:focus {
                 color: $secondary;
                 transition: 0.4s;
             }
@@ -43,7 +44,8 @@ nav {
     color: $tertiary;
     border: none;
 
-    &:hover {
+    &:hover,
+    &:focus {
         color: $secondary;
         cursor: pointer;
     }
