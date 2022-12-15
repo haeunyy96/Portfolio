@@ -145,14 +145,45 @@
     textarea {
         font-size: 0.7rem;
     }
-
+    .projectsImages {
+        height: 180px;
+    }
+    .indexHeader {
+        h1 {
+            font-size: 3rem;
+        }
+    }
 }
 
-@media (max-width:400px) {
+@media (max-width:440px) {
     .portfolioBtn {
         margin-bottom: 10px;
     }
     .resumeBtn {
         margin-left: 3px;
+    }
+    .projectsImages {
+        height: 150px;
+    }
+    .indexHeader {
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+    h4 {
+        font-size: 1.6rem;
+    }
+    h5 {
+        font-size: 1.1rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    button {
+        padding: 7px 25px !important;
+        font-size: 0.7rem;
+        a {
+            font-size: 0.7rem;
+        }
     }
 }

@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 const clickArrow = document.querySelector('.downArrow')
-const linkClick = document.querySelectorAll('.onclick')
+const linkClick = document.querySelectorAll('a')
 const unfold = document.querySelector('.folder')
 
 clickArrow.addEventListener('click',(e)=> {
